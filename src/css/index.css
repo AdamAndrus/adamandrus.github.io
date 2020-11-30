@@ -7,5 +7,12 @@ h1 {
 }
 
 .disclaimer:hover {
-  font-size: 24px;
+  font-size: 14px;
+}
+
+.adam_image {
+  width: 250px;
+  height: 250px;
+  display: block;
+  margin: auto;
 }
