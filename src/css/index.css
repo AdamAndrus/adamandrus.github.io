@@ -51,5 +51,48 @@ a {
 }
 
 .number_guessing_game_div {
-  background-color: lightblue;
+  background-color: #ccf4b7;
+  border: 1px solid darkblue;
+  border-radius: 5px;
+  margin-top: 5%;
+}
+
+.number_guessing_game_div_div {
+  padding: 10px;
+}
+
+.content {
+  padding-top: 50px;
+}
+
+.blog_content {
+  margin: 5%;
+}
+
+.blog_photo {
+  width: 25%;
+  height: 25%;
+  display: block;
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+.blog_date_and_title ul {
+  margin: 0;
+  padding-top: 5%;
+  text-align: left;
+}
+
+.blog_date_and_title li {
+  letter-spacing: 2px;
+  display: inline-grid;
+  padding-left: 5%;
+}
+
+footer {
+  display: flex;
+  justify-content: left;
+  padding: 5px;
+  background-color: #45a1ff;
+  color: #fff;
 }
