@@ -10,9 +10,46 @@ h1 {
   font-size: 14px;
 }
 
+a {
+  text-decoration: none;
+}
+
 .adam_image {
   width: 250px;
   height: 250px;
   display: block;
   margin: auto;
+}
+
+.navigation ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.navigation li {
+  font-weight: 100;
+  letter-spacing: 2px;
+  padding: 20px;
+  display: inline;
+}
+
+.to_do {
+  background-color: pink;
+  width: 20%;
+  border: 3px dotted coral;
+  padding: inherit;
+}
+
+.button {
+  padding-top: 15px;
+}
+
+.lastResult {
+  color: white;
+  padding: 3px;
+}
+
+.number_guessing_game_div {
+  background-color: lightblue;
 }

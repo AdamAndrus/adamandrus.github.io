@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="../src/css/index.css" type="text/css" rel="stylesheet">
+    <script src="../src/js/jsJunkDrawer.js"></script>
+    <title>JS • Junk • Drawer</title>
+  </head>
+  <body>
+
+    <p><img src="../src/images/Adam.png" class="adam_image" alt="drawing of Adam"></p>
+
+    <nav class="navigation">
+     <ul>
+       <a href="../pages/index.html"><li>Home</li></a>
+       <a href="../pages/about.html"><li>About</li></a>
+       <li><b>JS Junk Drawer</b></li>
+       <li>Blog</li>
+       <li>Contact</li>
+       <li>...</li>
+     </ul>
+    </nav>
+
+    <p>This is where I practice/dump vanilla JS projects</p>
+
+    <div class="number_guessing_game_div">
+      <h3>Number guessing game</h3>
+
+      <p>We have selected a random number between 1 and 100. See if you can guess it in 10 turns or fewer. We'll tell you if your guess was too high or too low.</p>
+
+      <div class="number_guessing_form">
+        <label for="guessField"><b>Enter a guess:</b></label>
+        <input type="text" id="guessField" class="guessField">
+        <input type="submit" value="Submit guess" class="guessSubmit">
+      </div>
+
+      <div class="resultParas">
+        <p class="guesses"></p>
+        <p class="lastResult"></p>
+        <p class="lowOrHi"></p>
+      </div>
+
+    </div>
+
+  </body>
+</html>
