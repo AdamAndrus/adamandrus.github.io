@@ -1,5 +1,7 @@
 body {
-  background-color: #fafad2;
+  /* background-color: #fafad2; */
+  background-color: #fffef2;
+  color: #252525;
 }
 
 h1 {
@@ -14,11 +16,19 @@ a {
   text-decoration: none;
 }
 
+a:visited {
+  color: #252525;
+}
+
 .adam_image {
   width: 250px;
   height: 250px;
   display: block;
   margin: auto;
+}
+
+a:hover {
+  color: #ff4500;
 }
 
 .navigation ul {
