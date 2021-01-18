@@ -66,9 +66,11 @@ a {
 }
 
 .blog_content {
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 15%;
+  margin-right: 15%;
   margin-bottom: 5%;
+  /* font-family: 'Bodoni Moda', serif; */
+  font-family: 'Halant', serif;
 }
 
 .blog_photo {
@@ -89,12 +91,4 @@ a {
   letter-spacing: 2px;
   display: inline-grid;
   padding-left: 5%;
-}
-
-footer {
-  display: flex;
-  justify-content: left;
-  padding: 5px;
-  background-color: #45a1ff;
-  color: #fff;
 }
