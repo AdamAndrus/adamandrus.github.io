@@ -51,26 +51,6 @@ a:hover {
   padding: inherit;
 }
 
-.button {
-  padding-top: 15px;
-}
-
-.lastResult {
-  color: white;
-  padding: 3px;
-}
-
-.number_guessing_game_div {
-  background-color: #ccf4b7;
-  border: 1px solid darkblue;
-  border-radius: 5px;
-  margin-top: 5%;
-}
-
-.number_guessing_game_div_div {
-  padding: 10px;
-}
-
 .content {
   padding-top: 40px;
 }
